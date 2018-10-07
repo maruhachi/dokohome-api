@@ -1,0 +1,16 @@
+# Database
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dokohome
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+# Server
+server:
+  servlet:
+    context-path: /api
+# Administration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
