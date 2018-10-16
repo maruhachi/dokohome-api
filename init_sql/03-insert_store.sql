@@ -1,0 +1,2 @@
+INSERT INTO store (id, name, prefecture, address) VALUES (1, 'タイトー仙台クリスロード店', '宮城県', '仙台市青葉区中央２−３−２５');
+INSERT INTO store (id, name, prefecture, address) VALUES (2, 'サードプラネットＢｉＶｉ仙台店', '宮城県', '仙台市宮城野区榴岡２丁目１番２５号');
